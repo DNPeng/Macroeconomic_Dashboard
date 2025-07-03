@@ -49,7 +49,7 @@ st.markdown("""
         text-align: center;
         font-style: italic;
         margin-top: -5px; /* Move closer to title */
-        margin-bottom: -10px;
+        margin-bottom: -25px;
     }
     .chart-container {
         border: none;
