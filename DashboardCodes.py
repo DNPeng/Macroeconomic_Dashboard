@@ -156,6 +156,7 @@ with col2:
     # Title and subtitle with reduced spacing
     st.markdown('<div class="logo-title">ACTIONABLE INSIGHTS</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Generate wisdom from fingertip</div>', unsafe_allow_html=True)
+    
 
 with col3:
     # BPS Logo - Image file
@@ -164,7 +165,8 @@ with col3:
         <img src="bps_logo.png" alt="BPS Logo" style="width: 120px; height: 100px; object-fit: contain;">
     </div>
     """, unsafe_allow_html=True)
-
+    st.markdown('<div class="subtitle">Updated by...</div>', unsafe_allow_html=True)
+    
 # Main Navigation Menu using streamlit-option-menu
 main_tabs_list = ['Neraca Nasional', 'Indeks Harga', 'Ekspor-Impor', 'APBN', 'Ketenagakerjaan', 'Kemiskinan', 'IPM']
 
