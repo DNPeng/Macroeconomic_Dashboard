@@ -49,7 +49,7 @@ st.markdown("""
         text-align: center;
         font-style: italic;
         margin-top: -5px; /* Move closer to title */
-        margin-bottom: 0px;
+        margin-bottom: -10px;
     }
     .chart-container {
         border: none;
@@ -183,7 +183,12 @@ selected_main_tab = option_menu(
     default_index=default_main_index,
     orientation="horizontal",
     styles={
-        "container": {"padding": "0px !important", "background-color": "white", "margin-bottom": "1rem", "flex-wrap": "nowrap"}, # Ensure it stays horizontal
+       "container": {
+        "padding": "0px !important",
+        "background-color": "white",
+        "margin-bottom": "1rem",
+        "margin-top": "-10px",  # Tambahkan baris ini
+        "flex-wrap": "nowrap" }, # Ensure it stays horizontal
         "nav-link": {
             "font-size": "14px", 
             "font-weight": "bold",
