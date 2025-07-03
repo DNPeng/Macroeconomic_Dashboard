@@ -48,8 +48,8 @@ st.markdown("""
         font-size: 18px;
         text-align: center;
         font-style: italic;
-        margin-top: -10px; /* Move closer to title */
-        margin-bottom: 0px;
+        margin-top: -5px; /* Move closer to title */
+        margin-bottom: -10px;
     }
     .chart-container {
         border: none;
