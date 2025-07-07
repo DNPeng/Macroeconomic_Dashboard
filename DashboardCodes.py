@@ -162,7 +162,7 @@ with col3:
     # BPS Logo - Image file
     st.markdown("""
     <div class="logo-container">
-        <img src="bps_logo.png" alt="BPS Logo" style="width: 120px; height: 100px; object-fit: contain;">
+        <img src="Logo BPS dan DNPeng.png" alt="BPS Logo" style="width: 120px; height: 100px; object-fit: contain;">
     </div>
     """, unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Updated by...</div>', unsafe_allow_html=True)
