@@ -160,12 +160,22 @@ with col2:
 
 with col3:
     # BPS Logo - Image file
-    st.markdown("""
+    import base64
+
+def get_image_base64(path):
+    with open(path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+bps_logo_base64 = get_image_base64("bps_logo.png")
+
+with col3:
+    st.markdown(f"""
     <div class="logo-container">
-        <img src="Logo_BPS_dan_DNPeng.png" alt="BPS Logo" style="width: 120px; height: 100px; object-fit: contain;">
+        <img src="data:image/png;base64,{bps_logo_base64}" alt="BPS Logo" 
+             style="width: 120px; height: 100px; object-fit: contain;">
     </div>
     """, unsafe_allow_html=True)
-    st.markdown('<div class="subtitle">Updated by...</div>', unsafe_allow_html=True)
     
 # Main Navigation Menu using streamlit-option-menu
 main_tabs_list = ['Neraca Nasional', 'Indeks Harga', 'Ekspor-Impor', 'APBN', 'Ketenagakerjaan', 'Kemiskinan', 'IPM']
