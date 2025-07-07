@@ -63,7 +63,7 @@ st.markdown("""
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding-top: 10px; /* Add top padding to push logos down */
+        padding-top: 0px; /* Add top padding to push logos down */
     }
     
     /* Sidebar buttons styling - FIXED POSITIONING */
@@ -173,7 +173,7 @@ with col3:
     st.markdown(f"""
     <div class="logo-container">
         <img src="data:image/png;base64,{bps_logo_base64}" alt="BPS Logo" 
-             style="width: 500px; height: 200px; object-fit: contain;">
+             style="width: 200px; height: 100px; object-fit: contain;">
     </div>
     """, unsafe_allow_html=True)
     
