@@ -157,8 +157,6 @@ with col2:
     st.markdown('<div class="logo-title">ACTIONABLE INSIGHTS</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Generate wisdom from fingertip</div>', unsafe_allow_html=True)
     
-
-with col3:
     # BPS Logo - Image file
     import base64
 
