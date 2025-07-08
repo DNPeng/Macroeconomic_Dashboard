@@ -155,7 +155,7 @@ with col1:
 with col2:
     # Title and subtitle with reduced spacing
     st.markdown('<div class="logo-title"> INSIGHTS ENGINE STUDIO </div>', unsafe_allow_html=True)
-    st.markdown('<div class="subtitle">Generate wisdom from fingertip</div>', unsafe_allow_html=True)
+    st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
     
     # BPS Logo - Image file
     import base64
