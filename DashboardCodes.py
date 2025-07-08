@@ -146,9 +146,19 @@ col1, col2, col3 = st.columns([1, 2.5, 1.25])
 
 with col1:
     # AIG Logo - Image file
-    st.markdown("""
+    import base64
+
+def get_image_base64(path):
+    with open(path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+    
+    aig_base64 = image_to_base64("aig_logo.png")
+    
+    st.markdown(f"""
     <div class="logo-container">
-        <img src="aig_logo.png" alt="AIG Logo" style="width: 100px; height: 100px; object-fit: contain;">
+        <img src="data:image/png;base64,{aig_base64}" alt="AIG Logo"
+             style="max-width: 100%; height: auto; object-fit: contain;">
     </div>
     """, unsafe_allow_html=True)
 
