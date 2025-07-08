@@ -150,7 +150,7 @@ col1, col2, col3 = st.columns([1, 2.5, 1.25])
         data = f.read()
     return base64.b64encode(data).decode()
     
-    aig_base64 = get_image_base64("aig_logo.png")
+aig_base64 = get_image_base64("aig_logo.png")
      
 with col1:
     # AIG Logo - Image file
@@ -167,7 +167,6 @@ with col2:
     st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
     
     # BPS Logo - Image file
-    #import base64
 
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
