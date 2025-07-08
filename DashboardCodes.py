@@ -153,7 +153,7 @@ aig_base64 = get_image_base64("aig_logo.png")
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
 # --- Create columns for layout ---
-col1, col2, col3 = st.columns([1.15, 3, 1.3])
+col1, col2, col3 = st.columns([2,1])
 
 # --- Column 1: AIG logo ---
 with col1:
@@ -165,12 +165,12 @@ with col1:
     """, unsafe_allow_html=True)
 
 # --- Column 2: Title and Subtitle ---
-with col2:
-    st.markdown('<div class="logo-title">INSIGHT GENERATOR STUDIO</div>', unsafe_allow_html=True)
-    st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
+#with col2:
+   # st.markdown('<div class="logo-title">INSIGHT GENERATOR STUDIO</div>', unsafe_allow_html=True)
+   # st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
 
 # --- Column 3: BPS logo ---
-with col3:
+with col2:
     st.markdown(f"""
     <div class="logo-container">
         <img src="data:image/png;base64,{bps_logo_base64}" alt="BPS Logo" 
