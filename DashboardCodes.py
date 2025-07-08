@@ -144,7 +144,7 @@ st.markdown("""
 # Header with logos
 col1, col2, col3 = st.columns([1, 2.5, 1.25])
 
- #import base64
+ import base64
 
 def get_image_base64(path):
     with open(path, "rb") as f:
@@ -154,7 +154,6 @@ def get_image_base64(path):
     aig_base64 = image_to_base64("aig_logo.png")
 with col1:
     # AIG Logo - Image file
-     
     st.markdown(f"""
     <div class="logo-container">
         <img src="data:image/png;base64,{aig_base64}" alt="AIG Logo"
