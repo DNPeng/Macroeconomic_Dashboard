@@ -167,7 +167,7 @@ with col2:
     st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
     
     # BPS Logo - Image file
-    import base64
+    #import base64
 
 def get_image_base64(path):
     with open(path, "rb") as f:
