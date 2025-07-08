@@ -26,7 +26,7 @@ st.markdown("""
 <style>
     /* Adjust top padding to show title properly */
     .block-container { 
-        padding-top: 2rem !important;
+        padding-top:1rem !important;
     }
     .header-container {
         display: flex;
