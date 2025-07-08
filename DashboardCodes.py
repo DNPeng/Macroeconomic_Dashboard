@@ -63,7 +63,7 @@ st.markdown("""
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding-top: 20px; /* Add top padding to push logos down */
+        padding-top: 10px; /* Add top padding to push logos down */
     }
     
     /* Sidebar buttons styling - FIXED POSITIONING */
