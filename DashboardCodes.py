@@ -144,7 +144,7 @@ st.markdown("""
 # Header with logos
 col1, col2, col3 = st.columns([1, 2.5, 1.25])
 
- import base64
+ #import base64
 
 def get_image_base64(path):
     with open(path, "rb") as f:
