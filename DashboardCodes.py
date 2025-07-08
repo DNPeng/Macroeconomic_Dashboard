@@ -169,10 +169,10 @@ with col2:
     # BPS Logo - Image file
     #import base64
 
-def get_image_base64(path):
-    with open(path, "rb") as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
+#def get_image_base64(path):
+    #with open(path, "rb") as f:
+        #data = f.read()
+    #return base64.b64encode(data).decode()
 
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
