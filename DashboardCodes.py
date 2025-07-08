@@ -160,7 +160,7 @@ with col1:
     st.markdown(f"""
     <div class="logo-container">
         <img src="data:image/png;base64,{aig_base64}" alt="AIG Logo"
-             style="width: 100px; height: auto; object-fit: contain;">
+             style="max-width: 100%; height: auto; object-fit: contain;">
     </div>
     """, unsafe_allow_html=True)
 
