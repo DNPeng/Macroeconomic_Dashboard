@@ -37,8 +37,8 @@ st.markdown("""
         margin-bottom: 1rem;
     }
     .logo-title {
-        color: 093FB4;
-        font-size: 40px;
+        color: #093FB4;
+        font-size: 50px;
         font-weight: bold;
         text-align: center;
         margin: 0;
