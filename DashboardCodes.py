@@ -11,7 +11,7 @@ from streamlit_option_menu import option_menu
 
 # Set page configuration
 st.set_page_config(
-    page_title="Insights Engine Studio",
+    page_title="Insight Generator Studio",
     layout="wide"
 )
 
@@ -166,7 +166,7 @@ with col1:
 
 # --- Column 2: Title and Subtitle ---
 with col2:
-    st.markdown('<div class="logo-title">INSIGHTS ENGINE STUDIO</div>', unsafe_allow_html=True)
+    st.markdown('<div class="logo-title">INSIGHT GENERATOR STUDIO</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
 
 # --- Column 3: BPS logo ---
