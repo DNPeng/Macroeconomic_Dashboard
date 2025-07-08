@@ -166,8 +166,9 @@ with col1:
 
 # --- Column 2: Title and Subtitle ---
 with col2:
-   st.markdown('<div class="logo-title">INSIGHT GENERATOR STUDIO</div>', unsafe_allow_html=True)
-   st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
+    pass
+   # st.markdown('<div class="logo-title">INSIGHT GENERATOR STUDIO</div>', unsafe_allow_html=True)
+   # st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
 
 # --- Column 3: BPS logo ---
 with col3:
