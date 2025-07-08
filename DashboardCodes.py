@@ -10,7 +10,7 @@ from streamlit_option_menu import option_menu
 
 # Set page configuration
 st.set_page_config(
-    page_title="Actionable Insights",
+    page_title="Insights Engine Studio",
     layout="wide"
 )
 
