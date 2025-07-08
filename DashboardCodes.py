@@ -38,7 +38,7 @@ st.markdown("""
     }
     .logo-title {
         color: #093FB4;
-        font-size: 50px;
+        font-size: 100px;
         font-weight: bold;
         text-align: center;
         margin: 0;
@@ -153,7 +153,7 @@ aig_base64 = get_image_base64("aig_logo.png")
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
 # --- Create columns for layout ---
-col1, col2, col3 = st.columns([1.25, 3, 1.25])
+col1, col2, col3 = st.columns([1.15, 3, 1.25])
 
 # --- Column 1: AIG logo ---
 with col1:
