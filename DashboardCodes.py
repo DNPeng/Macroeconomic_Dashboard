@@ -142,7 +142,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header with logos
-col1, col2, col3 = st.columns([1, 3, 1])
+col1, col2, col3 = st.columns([1, 2, 2])
 
 with col1:
     # AIG Logo - Image file
