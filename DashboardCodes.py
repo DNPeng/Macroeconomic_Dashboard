@@ -142,18 +142,21 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Header with logos
-col1, col2, col3 = st.columns([1, 2.5, 1.25])
-
- def get_image_base64(path):
+# --- Define the image-to-base64 function properly ---
+def get_image_base64(path):
     with open(path, "rb") as f:
         data = f.read()
     return base64.b64encode(data).decode()
-    
+
+# --- Convert logos to base64 BEFORE using them ---
 aig_base64 = get_image_base64("aig_logo.png")
-     
+bps_logo_base64 = get_image_base64("bps_logo.png")
+
+# --- Create columns for layout ---
+col1, col2, col3 = st.columns([1, 2.5, 1.25])
+
+# --- Column 1: AIG logo ---
 with col1:
-    # AIG Logo - Image file
     st.markdown(f"""
     <div class="logo-container">
         <img src="data:image/png;base64,{aig_base64}" alt="AIG Logo"
@@ -161,15 +164,12 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
 
+# --- Column 2: Title and Subtitle ---
 with col2:
-    # Title and subtitle with reduced spacing
-    st.markdown('<div class="logo-title"> INSIGHTS ENGINE STUDIO </div>', unsafe_allow_html=True)
+    st.markdown('<div class="logo-title">INSIGHTS ENGINE STUDIO</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Generate wisdom at fingertips</div>', unsafe_allow_html=True)
-    
-    # BPS Logo - Image file
 
-bps_logo_base64 = get_image_base64("bps_logo.png")
-
+# --- Column 3: BPS logo ---
 with col3:
     st.markdown(f"""
     <div class="logo-container">
