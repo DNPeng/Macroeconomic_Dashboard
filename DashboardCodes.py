@@ -8,6 +8,7 @@ from datetime import datetime
 import base64
 from streamlit_option_menu import option_menu
 
+
 # Set page configuration
 st.set_page_config(
     page_title="Insights Engine Studio",
@@ -144,14 +145,13 @@ st.markdown("""
 # Header with logos
 col1, col2, col3 = st.columns([1, 2.5, 1.25])
 
- import base64
-
-def get_image_base64(path):
+ def get_image_base64(path):
     with open(path, "rb") as f:
         data = f.read()
     return base64.b64encode(data).decode()
     
-    aig_base64 = image_to_base64("aig_logo.png")
+    aig_base64 = get_image_base64("aig_logo.png")
+     
 with col1:
     # AIG Logo - Image file
     st.markdown(f"""
@@ -168,11 +168,6 @@ with col2:
     
     # BPS Logo - Image file
     #import base64
-
-#def get_image_base64(path):
-    #with open(path, "rb") as f:
-        #data = f.read()
-    #return base64.b64encode(data).decode()
 
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
