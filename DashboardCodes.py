@@ -76,7 +76,7 @@ st.markdown("""
     
     /* First button specific spacing fix */
     div[data-testid="stButton"]:first-of-type {
-        margin-bottom: 3px !important; /* Same as others now */
+        margin-bottom: 1px !important; /* Same as others now */
     }
     
     .stButton > button {
