@@ -153,7 +153,7 @@ igs_base64 = get_image_base64("igs_logo.png")
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
 # --- Create columns for layout ---
-col1, col2, col3 = st.columns([1, 0.5, 0.5])
+col1, col2, col3 = st.columns([1, 0.5, 0.65])
 
 # --- Column 1: IGS logo ---
 with col1:
