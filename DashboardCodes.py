@@ -86,6 +86,7 @@ st.markdown("""
         border: none !important;
         border-left: 5px solid transparent !important;
         padding: 12px 15px !important; /* Reduced padding for tighter spacing */
+        font-size: 12px !important;
         font-weight: bold !important;
         border-radius: 0px !important;
         transition: background-color 0.2s, color 0.2s, border-left-color 0.2s !important; /* Smooth transitions only */
@@ -301,7 +302,7 @@ side_tabs_config = {
 }
 
 # Create layout with sidebar and main content
-col1, col2 = st.columns([0.5, 4])
+col1, col2 = st.columns([0.65, 4])
 
 with col1:
     # Get current side tabs for selected main tab
