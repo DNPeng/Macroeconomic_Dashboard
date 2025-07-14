@@ -70,7 +70,7 @@ st.markdown("""
     /* Sidebar buttons styling - FIXED POSITIONING */
     div[data-testid="stButton"] {
         margin-top: 0px !important;
-        margin-bottom: 1px !important; /* Reduced from 5px to 3px */
+        margin-bottom: 0px !important; /* Reduced from 5px to 3px */
         position: relative !important; /* Prevent movement */
     }
     
