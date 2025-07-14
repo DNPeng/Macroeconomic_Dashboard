@@ -149,17 +149,17 @@ def get_image_base64(path):
     return base64.b64encode(data).decode()
 
 # --- Convert logos to base64 BEFORE using them ---
-aig_base64 = get_image_base64("aig_logo.png")
+igs_base64 = get_image_base64("igs_logo.png")
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
 # --- Create columns for layout ---
 col1, col2, col3 = st.columns([1, 0.5, 0.5])
 
-# --- Column 1: AIG logo ---
+# --- Column 1: IGS logo ---
 with col1:
     st.markdown(f"""
     <div class="logo-container">
-        <img src="data:image/png;base64,{aig_base64}" alt="AIG Logo"
+        <img src="data:image/png;base64,{igs_base64}" alt="IGS Logo"
              style="max-width: 100%; height: auto; object-fit: contain;">
     </div>
     """, unsafe_allow_html=True)
