@@ -90,7 +90,7 @@ st.markdown("""
         font-weight: bold !important;
         border-radius: 0px !important;
         transition: background-color 0.2s, color 0.2s, border-left-color 0.2s !important; /* Smooth transitions only */
-        min-height: 36px !important; /* Reduced from 50px */
+        min-height: 06px !important; /* Reduced from 50px */
         display: flex !important;
         align-items: center !important;
         justify-content: flex-start !important;
