@@ -42,7 +42,7 @@ st.markdown("""
         font-weight: bold;
         text-align: center;
         margin: 0;
-        padding: 0;
+        padding: 10;
     }
     .subtitle {
         color: #0070c0;
@@ -153,7 +153,7 @@ igs_base64 = get_image_base64("igs_logo.png")
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
 # --- Create columns for layout ---
-col1, col2, col3 = st.columns([1, 0.5, 0.65])
+col1, col2, col3 = st.columns([0.9, 0.5, 0.65])
 
 # --- Column 1: IGS logo ---
 with col1:
@@ -175,7 +175,7 @@ with col3:
     st.markdown(f"""
     <div class="logo-container">
         <img src="data:image/png;base64,{bps_logo_base64}" alt="BPS Logo" 
-             style="width: 1000px; height: auto; object-fit: contain;">
+             style="width: 100px; height: auto; object-fit: contain;">
     </div>
     """, unsafe_allow_html=True)
     
