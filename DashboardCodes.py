@@ -28,6 +28,13 @@ st.markdown("""
     .block-container { 
         padding-top:1rem !important;
     }
+    /* Hilangkan scroll vertikal dan buat layout 1 canvas penuh */
+    html, body, .main, .block-container {
+        height: 100vh !important;
+        overflow-y: hidden !important;
+        padding-bottom: 0 !important;
+        margin: 0 !important;
+    }
     .header-container {
         display: flex;
         justify-content: space-between;
