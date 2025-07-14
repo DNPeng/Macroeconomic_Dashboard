@@ -301,7 +301,7 @@ side_tabs_config = {
 }
 
 # Create layout with sidebar and main content
-col1, col2 = st.columns([1, 4])
+col1, col2 = st.columns([0.5, 4])
 
 with col1:
     # Get current side tabs for selected main tab
