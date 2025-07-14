@@ -28,12 +28,7 @@ st.markdown("""
     .block-container { 
         padding-top:1rem !important;
     }
-   html, body, .main, .block-container {
-    height: 100vh !important;
-    overflow-y: auto !important;   /* ✅ scroll hanya muncul jika dibutuhkan */
-    margin: 0 !important;
-    padding-bottom: 0 !important;
-}
+
     .header-container {
         display: flex;
         justify-content: space-between;
