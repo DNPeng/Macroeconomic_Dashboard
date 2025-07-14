@@ -201,7 +201,7 @@ selected_main_tab = option_menu(
        "container": {
         "padding": "0px !important",
         "background-color": "white",
-        "margin-bottom": "1rem",
+        "margin-bottom": "0rem",
         "margin-top": "-10px",  # Tambahkan baris ini
         "flex-wrap": "nowrap" }, # Ensure it stays horizontal
         "nav-link": {
