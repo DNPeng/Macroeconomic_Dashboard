@@ -209,7 +209,7 @@ selected_main_tab = option_menu(
             "color": "#333",
             "background-color": "#f0f0f0", 
             "text-align": "center", 
-            "padding": "15px 10px", # Adjusted padding
+            "padding": "8px 6px", # Adjusted padding
             "margin":"0px 2px !important", # Spacing between tabs
             "border-radius": "0px !important",
             "border-bottom": "5px solid #0070c0",
