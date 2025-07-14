@@ -305,6 +305,9 @@ side_tabs_config = {
 col1, col2 = st.columns([0.65, 5])
 
 with col1:
+    # Tambahkan pembungkus dengan padding-top minimal
+    st.markdown("<div style='padding-top: 0px;'>", unsafe_allow_html=True)
+    
     # Get current side tabs for selected main tab
     current_side_tabs = side_tabs_config.get(st.session_state.main_tab, ['Default Tab'])
     
@@ -317,7 +320,9 @@ with col1:
         if st.button(tab, key=button_key):
             st.session_state.side_tab = tab
             st.rerun()
-
+    # Tutup pembungkus HTML
+    st.markdown("</div>", unsafe_allow_html=True)
+    
 with col2:
     # Main content area - changes based on selected tabs
     st.markdown('<div class="chart-container">', unsafe_allow_html=True)
