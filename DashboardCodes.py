@@ -86,7 +86,8 @@ st.markdown("""
         margin-bottom: 0px !important; /* Same as others now */
     }
     
-    .stButton > button {
+    .stButton > button,
+    div[data-testid="stButton"] > button {
         width: 100% !important;
         background-color: #f0f0f0 !important;
         color: #333 !important;
