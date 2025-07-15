@@ -71,7 +71,7 @@ st.markdown("""
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding-top: 10px; /* Add top padding to push logos down */
+        padding-top: 5px; /* Add top padding to push logos down */
     }
     
     /* Sidebar buttons styling - FIXED POSITIONING */
@@ -83,7 +83,7 @@ st.markdown("""
     
     /* First button specific spacing fix */
     div[data-testid="stButton"]:first-of-type {
-        margin-bottom: 1px !important; /* Same as others now */
+        margin-bottom: 0px !important; /* Same as others now */
     }
     
     .stButton > button {
@@ -105,7 +105,7 @@ st.markdown("""
         box-sizing: border-box !important;
         position: relative !important; /* Prevent position changes */
         transform: none !important; /* Prevent any transforms */
-        margin-bottom: 1px !important;
+        margin-bottom: 0px !important;
     }
     
     .stButton > button:hover {
