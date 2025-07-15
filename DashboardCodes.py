@@ -28,7 +28,13 @@ st.markdown("""
     .block-container { 
         padding-top:1rem !important;
     }
-
+    /* Menghilangkan Vertical Scroll */
+    html, body, .main, .block-container {
+    height: 100vh !important;         /* Paksa tinggi sama dengan layar */
+    overflow-y: hidden !important;    /* Hilangkan scroll vertikal */
+    padding-bottom: 0 !important;     /* Hapus padding default Streamlit */
+    margin: 0 !important;
+    }
     .header-container {
         display: flex;
         justify-content: space-between;
