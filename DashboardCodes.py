@@ -92,12 +92,12 @@ st.markdown("""
         color: #333 !important;
         border: none !important;
         border-left: 5px solid transparent !important;
-        padding: 6px 6px 6px 6px !important; /* Reduced padding for tighter spacing */
-        font-size: 9px !important;
+        padding: 0px 6px 0px 6px !important; /* Reduced padding for tighter spacing */
+        font-size: 5px !important;
         font-weight: bold !important;
         border-radius: 0px !important;
         transition: background-color 0.2s, color 0.2s, border-left-color 0.2s !important; /* Smooth transitions only */
-        min-height: 30px !important; /* Reduced from 50px */
+        min-height: 28px !important; /* Reduced from 50px */
         display: flex !important;
         align-items: center !important;
         justify-content: flex-start !important;
@@ -105,7 +105,7 @@ st.markdown("""
         box-sizing: border-box !important;
         position: relative !important; /* Prevent position changes */
         transform: none !important; /* Prevent any transforms */
-        margin-bottom: 2px !important;
+        margin-bottom: 1px !important;
     }
     
     .stButton > button:hover {
@@ -162,7 +162,7 @@ igs_base64 = get_image_base64("igs_logo.png")
 bps_logo_base64 = get_image_base64("bps_logo.png")
 
 # --- Create columns for layout ---
-col1, col2, col3 = st.columns([0.7, 0.5, 0.65])
+col1, col2, col3 = st.columns([0.6, 0.5, 0.65])
 
 # --- Column 1: IGS logo ---
 with col1:
