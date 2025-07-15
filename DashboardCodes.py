@@ -93,7 +93,7 @@ st.markdown("""
         border: none !important;
         border-left: 5px solid transparent !important;
         padding: 6px 6px 6px 6px !important; /* Reduced padding for tighter spacing */
-        font-size: 10px !important;
+        font-size: 9px !important;
         font-weight: bold !important;
         border-radius: 0px !important;
         transition: background-color 0.2s, color 0.2s, border-left-color 0.2s !important; /* Smooth transitions only */
@@ -105,6 +105,7 @@ st.markdown("""
         box-sizing: border-box !important;
         position: relative !important; /* Prevent position changes */
         transform: none !important; /* Prevent any transforms */
+        margin-bottom: 2px !important;
     }
     
     .stButton > button:hover {
