@@ -93,8 +93,9 @@ st.markdown("""
         border: none !important;
         border-left: 5px solid transparent !important;
         padding: 0px 0px 0px 6px !important; /* Reduced padding for tighter spacing */
-        font-size: 5px !important;
-        font-weight: bold !important;
+        font-size: 10px !important;
+        line-height: 1.2 !important;
+        font-weight: normal !important;
         border-radius: 0px !important;
         transition: background-color 0.2s, color 0.2s, border-left-color 0.2s !important; /* Smooth transitions only */
         min-height: 28px !important; /* Reduced from 50px */
