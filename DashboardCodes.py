@@ -92,7 +92,7 @@ st.markdown("""
         color: #333 !important;
         border: none !important;
         border-left: 5px solid transparent !important;
-        padding: 0px 6px 0px 6px !important; /* Reduced padding for tighter spacing */
+        padding: 0px 0px 0px 6px !important; /* Reduced padding for tighter spacing */
         font-size: 5px !important;
         font-weight: bold !important;
         border-radius: 0px !important;
